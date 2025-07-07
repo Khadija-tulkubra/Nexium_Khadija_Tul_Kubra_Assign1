@@ -10,7 +10,8 @@
 - 🧠 User selects a topic card and clicks the **"Get Quotes"** button
 - 💬 Shows 3 relevant motivational quotes from a local JSON/array
 - 🎨 Styled with TailwindCSS and ShadCN components
-- 🚀 Deployed live on [Vercel](https://vercel.com)
+- 🚀 Deployed live on Vercel
+- Link:  https://nexium-khadija-tul-kubra-assign1.vercel.app/
 
 ---
 
