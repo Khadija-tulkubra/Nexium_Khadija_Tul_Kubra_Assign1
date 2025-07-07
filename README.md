@@ -42,5 +42,6 @@ assignment-1/
 pnpm install
 pnpm dev
 Then open: http://localhost:3000
+![Screenshot 2025-07-05 164251](https://github.com/user-attachments/assets/a43720bb-8b5d-4a3c-b773-3a167ced22c2)
 
-![image](https://github.com/user-attachments/assets/a6ad78d6-ec9a-4b96-899c-fe2ddeb84f92)
+
