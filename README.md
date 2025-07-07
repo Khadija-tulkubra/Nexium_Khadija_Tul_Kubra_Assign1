@@ -1,40 +1,44 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Assignment 1: Quote Generator Web App
 
-## Getting Started
+🌟 A motivational quote generator built using **Next.js**, **TypeScript**, and **ShadCN UI**.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 📝 A card-based UI with 5 topics (e.g., success, focus, discipline...)
+- 🧠 User selects a topic card and clicks the **"Get Quotes"** button
+- 💬 Shows 3 relevant motivational quotes from a local JSON/array
+- 🎨 Styled with TailwindCSS and ShadCN components
+- 🚀 Deployed live on [Vercel](https://vercel.com)
+
+---
+
+## 📁 Project Structure
+
+assignment-1/
+├── src/
+│ ├── app/
+│ │ ├── page.tsx // Main page logic + UI
+│ │ └── quotes.ts // Local quotes array
+│ └── components/ui/ // ShadCN UI components (button, input, select)
+
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- ShadCN UI
+- pnpm + Corepack
+
+---
+
+## 📦 Setup Instructions
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Nexium_Khadija_Tul_Kubra_Assign1
->>>>>>> bfb25710e5913e1addbb3918a6afd64448190701
+Then open: http://localhost:3000
